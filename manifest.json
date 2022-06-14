@@ -1,0 +1,12 @@
+{
+	"app": "stratum-timer",
+    "info": {
+        "name": "Timer",
+        "author": "Team Stratum",
+        "version": "1.0.0"
+    },
+    "launch": {
+        "command": "node dist/index.js $$APPID$$",
+        "postinstall": ""
+    }
+}

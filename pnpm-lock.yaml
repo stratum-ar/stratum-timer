@@ -1,0 +1,38 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/node': ^17.0.42
+  stratumkit-node: github:stratum-ar/stratumkit-node
+  typescript: ^4.7.3
+
+dependencies:
+  stratumkit-node: github.com/stratum-ar/stratumkit-node/6d6b7a4f288cc311991776eddc16f9ac701cab59
+
+devDependencies:
+  '@types/node': 17.0.42
+  typescript: 4.7.3
+
+packages:
+
+  /@types/node/17.0.42:
+    resolution: {integrity: sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==}
+    dev: true
+
+  /smart-buffer/4.2.0:
+    resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
+    engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
+    dev: false
+
+  /typescript/4.7.3:
+    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  github.com/stratum-ar/stratumkit-node/6d6b7a4f288cc311991776eddc16f9ac701cab59:
+    resolution: {tarball: https://codeload.github.com/stratum-ar/stratumkit-node/tar.gz/6d6b7a4f288cc311991776eddc16f9ac701cab59}
+    name: stratumkit-node
+    version: 1.0.0
+    dependencies:
+      smart-buffer: 4.2.0
+    dev: false
